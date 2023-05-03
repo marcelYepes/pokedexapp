@@ -1,5 +1,5 @@
 import React from "react"
-import FormNameUser from "../Components/Home/formNameUser"
+import FormNameUser from "../Components/Home/FormNameUser"
 
 const Home = () => {
   return (
