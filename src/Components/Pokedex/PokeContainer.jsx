@@ -1,9 +1,13 @@
-import React, {useEffect} from "react"
+import React, {useEffect, useState} from "react"
 import useFetch from "../../hooks/useFetch"
 import PokeCard from "./PokeCard"
+import {Pagination} from "./Pagination"
 
 const PokeContainer = ({formUrl}) => {
   const [pokemons, getAllPokemons] = useFetch(formUrl)
+  const totalPokes = pokemons.length
+  const [pokesPerPage, setPokesPerPage] = useState(10)
+  const [currentPage, setCurrentPage] = useState(1)
 
   useEffect(() => {
     getAllPokemons()
@@ -18,6 +22,12 @@ const PokeContainer = ({formUrl}) => {
         : pokemons?.pokemon.map(objPoke => (
             <PokeCard key={objPoke.pokemon.url} url={objPoke.pokemon.url} />
           ))}
+      <Pagination
+        pokesPerPage={pokesPerPage}
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+        totalPokes={totalPokes}
+      />
     </div>
   )
 }
