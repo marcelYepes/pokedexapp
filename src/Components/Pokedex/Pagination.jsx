@@ -8,7 +8,9 @@ export const Pagination = ({
 }) => {
   const pageNumbers = []
 
-  console.log(totalPokes / pokesPerPage)
+  for (let i = 1; i <= Math.ceil(totalPokes / pokesPerPage); i++) {
+    pageNumbers.push(i)
+  }
 
   return (
     <nav
@@ -19,12 +21,11 @@ export const Pagination = ({
       <a className="pagination-previous">Previous</a>
       <a className="pagination-next">Next page</a>
       <ul className="pagination-list">
-        <li>
-          <a className="pagination-link" aria-label="Goto page 1">
-            1
-          </a>
-        </li>
-
+        {pageNumbers.map(noPage => (
+          <li key={noPage}>
+            <a className="pagination-link">{noPage}</a>
+          </li>
+        ))}
         <li>
           <a
             className="pagination-link is-current"

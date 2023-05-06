@@ -5,7 +5,7 @@ import {Pagination} from "./Pagination"
 
 const PokeContainer = ({formUrl}) => {
   const [pokemons, getAllPokemons] = useFetch(formUrl)
-  const totalPokes = pokemons.length
+  const totalPokes = pokemons?.results.length
   const [pokesPerPage, setPokesPerPage] = useState(10)
   const [currentPage, setCurrentPage] = useState(1)
 
