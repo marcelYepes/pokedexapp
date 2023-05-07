@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(247, 247, 247);
+}
+
+.nameUser__input {
+  padding: 0.4em;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.nameUser__btn {
+  padding: 0.4em;
+  border: none;
+  border-radius: 10px;
+  background-color: #dd1a1a;
+  font-weight: 700;
+}
+
+.nameUser__btn:hover {
+  transform: scale(1.1);
+  filter: brightness(1.15);
+}

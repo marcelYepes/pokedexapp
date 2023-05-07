@@ -4,7 +4,7 @@ import FormPoke from "../Components/Pokedex/FormPoke"
 import PokeContainer from "../Components/Pokedex/PokeContainer"
 
 const Pokedex = () => {
-  const urlBase = "https://pokeapi.co/api/v2/pokemon?limit=200&offset=0"
+  const urlBase = "https://pokeapi.co/api/v2/pokemon?limit=100&offset=0"
 
   const [formUrl, setFormUrl] = useState(urlBase)
 

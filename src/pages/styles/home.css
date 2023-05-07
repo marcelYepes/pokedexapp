@@ -1,3 +1,7 @@
+body {
+  position: relative;
+}
+
 .home__container {
   min-height: 100vh;
   display: flex;
@@ -21,4 +25,10 @@
 
 .home__info {
   padding-bottom: 1em;
+}
+
+.home__footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }

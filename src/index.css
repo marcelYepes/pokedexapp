@@ -28,6 +28,8 @@ input {
   font-family: inherit;
 }
 button {
+  border: none;
+  cursor: pointer;
   font-family: inherit;
 }
 select {

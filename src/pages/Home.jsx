@@ -9,6 +9,9 @@ const Home = () => {
       <h2 className="home__subtitle">Hi Trainer</h2>
       <p className="home__info">Please give us your name to star</p>
       <FormNameUser />
+      <footer>
+        <img className="home__footer" src="./homeFooter.svg" alt="" />
+      </footer>
     </div>
   )
 }
