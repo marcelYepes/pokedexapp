@@ -5,7 +5,7 @@ import "./styles/home.css"
 const Home = () => {
   return (
     <div className="home__container">
-      <img className="home__img" src="./mainImg.jpg" alt="Pokedex" />
+      <img className="home__img" src="./pokedex.png" alt="Pokedex" />
       <h2 className="home__subtitle">Hi Trainer</h2>
       <p className="home__info">Please give us your name to star</p>
       <FormNameUser />

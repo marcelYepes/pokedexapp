@@ -27,7 +27,7 @@ const PokeContainer = ({formUrl}) => {
 
   return (
     <>
-      <div className="poke-container">
+      <div className="poke__container">
         {pokemons?.results
           ? pokemons?.results
               .slice(firstIndex, lastIndex)

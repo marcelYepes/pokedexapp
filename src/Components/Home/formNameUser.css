@@ -5,16 +5,16 @@ body {
 .nameUser__input {
   padding: 0.4em;
   border: none;
-  border-radius: 10px;
+  border-radius: 2px;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
 }
 
 .nameUser__btn {
   padding: 0.4em;
   border: none;
-  border-radius: 10px;
+  border-radius: 2px;
   background-color: #dd1a1a;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .nameUser__btn:hover {

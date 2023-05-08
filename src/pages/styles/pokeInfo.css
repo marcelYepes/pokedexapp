@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+.main__card {
+  border: 1px solid #ecc6c6;
+  box-shadow: 0px 2px 3px #7d7c7c;
+  margin-bottom: 5em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+.header__poke .poke__info {
+  font-family: "Nunito Sans", sans-serif;
+}
+.header__poke {
+  height: 150px;
+  position: relative;
+  max-width: 90vw;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+.poke__img {
+  object-fit: contain;
+  height: 180px;
+  position: absolute;
+  top: -40%;
+}
+.poke__info {
+  padding: 1em;
+  padding-top: 1.5em;
+  padding-bottom: 0.5em;
+}
+.poke__info-basic {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90vw;
+  border: 1px solid #ecc6c6;
+  box-shadow: 0px 2px 3px #7d7c7c;
+  margin-bottom: 3em;
+}
+.poke__number {
+  text-align: center;
+  margin-top: 0.8em;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.poke__name {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+.poke__size {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  padding: 0.5em;
+}
+.poke__size-item {
+  text-align: center;
+  padding-top: 0.5em;
+}
+.size-value {
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1em;
+}
+.card__type {
+  display: flex;
+  max-width: 100vw;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0 2em 0 2em;
+  flex-wrap: wrap;
+}
+.card__info {
+  display: flex;
+  flex-direction: column;
+}
+.card__type-title {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #302f2f;
+}
+.card__type-info {
+  display: flex;
+  flex-direction: row;
+  padding: 0.2em;
+  gap: 2em;
+}
+.card__type-poke {
+  color: rgb(252, 250, 250);
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 0.2em;
+  border-radius: 2px;
+}
+.card__abilities {
+  display: flex;
+  flex-direction: column;
+}
+.card__ab-title {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #302f2f;
+}
+.card__ab-info {
+  display: flex;
+}
+.card__ab-poke {
+  padding: 0.2em 2em;
+  margin-top: 0.2em;
+  font-weight: 600;
+  color: #302f2f;
+}
+.stats__container {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  max-width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.stats__title {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #302f2f;
+}
+.poke__stats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.poke__stats-info {
+  display: flex;
+  justify-content: space-between;
+}
+.stats__label {
+  color: #302f2f;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.stats__value {
+  color: #302f2f;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.stats-progress {
+  width: 100%;
+  height: 1.25em;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-bottom: 0.5em;
+}
+.stats-progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 4px;
+}
+.stats-progress::-webkit-progress-value {
+  background-image: linear-gradient(90deg, #fcd676 -2.25%, #e6901e 133.18%);
+  border-radius: 4px;
+}
+.poke__movements {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 3em;
+  border: 1px solid #ecc6c6;
+  box-shadow: 0px 2px 3px #7d7c7c;
+  margin-bottom: 3em;
+}
+.move__title {
+  color: #302f2f;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-left: 3em;
+}
+.move_card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 2em;
+  margin-right: 2em;
+  grid-gap: 1em;
+  font-weight: 500;
+  color: #302f2f;
+}

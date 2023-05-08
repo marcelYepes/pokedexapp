@@ -102,60 +102,65 @@
 }
 
 .bg-electric {
-  background-image: linear-gradient(90deg);
+  background-image: linear-gradient(
+    90deg,
+    rgb(214, 248, 22) 0%,
+    rgb(243, 237, 179) 49%,
+    rgb(237, 193, 89) 100%
+  );
 }
 .bg-normal {
   background-image: linear-gradient(
     181.51deg,
-    #735259 -6.44%,
-    #bc6b7c 121.95%,
-    #7c3f4c 186.11%
+    #664356 -6.44%,
+    #d39aa6 121.95%,
+    #994053 186.11%
   );
 }
 .bg-fighting {
   background-image: linear-gradient(
     176.83deg,
-    #96402a -8.78%,
-    #f1613c 169.09%,
-    #cb735d 242.33%
+    #a73317 -8.78%,
+    #ed947e 169.09%,
+    #210f0a 242.33%
   );
 }
 .bg-poison {
   background-image: linear-gradient(
     177.03deg,
-    #5b3184 -11.97%,
-    #a564e3 71.28%,
-    #ce9bff 135.64%
+    #7119c9 -11.97%,
+    #b387dd 71.28%,
+    #0d0415 135.64%
   );
 }
 .bg-ground {
   background-image: linear-gradient(
     179.75deg,
-    #654008 -19.96%,
-    #895c1a 43.67%,
-    #d69638 138.4%
+    #a1640a -19.96%,
+    #886734 43.67%,
+    #f19711 138.4%
   );
 }
 .bg-rock {
   background-image: linear-gradient(
     177.03deg,
-    #7e7e7e -11.97%,
+    #615e5e -11.97%,
     #8d8d94 57.49%,
-    #d3d3d3 135.64%
+    #f3eded 135.64%
   );
 }
 .bg-bug {
   background-image: linear-gradient(
     177.56deg,
-    #62db60 -58.92%,
-    #3bb039 16.57%,
-    #aaffa8 209.53%
+    #11f40d -58.92%,
+    #4fa34d 16.57%,
+    #176713 209.53%
   );
 }
 .bg-ghost {
   background-image: linear-gradient(
     177.03deg,
-    #323569 -11.97%,
+    #111219 -11.97%,
     #454aa8 57.49%,
     #787dda 135.64%
   );
@@ -163,49 +168,49 @@
 .bg-steel {
   background-image: linear-gradient(
     179.75deg,
-    #5e736c -19.96%,
-    #728881 43.67%,
+    #0d3b2c -19.96%,
+    #757978 43.67%,
     #a8a8a8 138.4%
   );
 }
 .bg-psychic {
   background-image: linear-gradient(
     90deg,
-    rgba(111, 0, 255, 1) 0%,
-    rgba(199, 155, 242, 1) 50%,
-    rgba(132, 13, 232, 1) 100%
+    rgb(13, 1, 29) 0%,
+    rgb(119, 12, 225) 50%,
+    rgb(210, 204, 215) 100%
   );
 }
 .bg-ice {
   background-image: linear-gradient(
     177.03deg,
-    #6fbedf -11.97%,
-    #64cbf5 47.77%,
-    #bdebfe 136.72%
+    #084f6e -11.97%,
+    #53b7df 47.77%,
+    #c8e9f6 136.72%
   );
 }
 .bg-dragon {
   background-image: linear-gradient(
     179.75deg,
-    #478a93 -19.96%,
-    #56a4ae 43.67%,
-    #a2bec1 138.4%
+    #e15f13 -19.96%,
+    #cbd41e 43.67%,
+    #e9f2f0 138.4%
   );
 }
 .bg-dark {
   background-image: linear-gradient(
     177.03deg,
-    #030706 -11.97%,
-    #0d1211 57.49%,
-    #5a5e5d 135.64%
+    #020907 -11.97%,
+    #152824 57.49%,
+    #595b5a 135.64%
   );
 }
 .bg-fairy {
   background-image: linear-gradient(
     179.75deg,
-    #971b45 -19.96%,
-    #c23867 43.67%,
-    #cd7d98 138.4%
+    #ab0f43 -19.96%,
+    #bb476d 43.67%,
+    #f3c4d4 138.4%
   );
 }
 .bg-flying {
@@ -226,6 +231,54 @@
 .color-water {
   color: #1f5aa3;
 }
+
+.color-electric {
+  color: #aaa820;
+}
+.color-normal {
+  color: #735259;
+}
+.color-fighting {
+  color: #96402a;
+}
+.color-poison {
+  color: #5b3184;
+}
+.color-ground {
+  color: #654008;
+}
+.color-rock {
+  color: #7e7e7e;
+}
+.color-bug {
+  color: #4ab648;
+}
+.color-ghost {
+  color: #323569;
+}
+.color-steel {
+  color: #5e736c;
+}
+.color-psychic {
+  color: #b61fae;
+}
+.color-ice {
+  color: #6fbedf;
+}
+.color-dragon {
+  color: #478a93;
+}
+.color-dark {
+  color: #030706;
+}
+.color-fairy {
+  color: #971b45;
+}
+
+.color-flying {
+  color: #3498db;
+}
+
 .border-grass {
   border-color: #abdac6;
 }
@@ -234,4 +287,47 @@
 }
 .border-water {
   border-color: -color #347cd4;
+}
+
+.border-electric {
+  border-color: #85831a;
+}
+.border-normal {
+  border-color: #6d4e54;
+}
+.border-fighting {
+  border-color: #96402a;
+}
+.border-poison {
+  border-color: #5b3184;
+}
+.border-ground {
+  border-color: #654008;
+}
+.border-rock {
+  border-color: #7e7e7e;
+}
+.border-bug {
+  border-color: #46ac44;
+}
+.border-ghost {
+  border-color: #323569;
+}
+.border-steel {
+  border-color: #5e736c;
+}
+.border-psychic {
+  border-color: #771572;
+}
+.border-ice {
+  border-color: #6cb9da;
+}
+.border-dragon {
+  border-color: #478a93;
+}
+.border-dark {
+  border-color: #0b0e0d;
+}
+.border-fairy {
+  border-color: #971b45;
 }

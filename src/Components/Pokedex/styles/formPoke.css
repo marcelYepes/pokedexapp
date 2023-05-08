@@ -1,0 +1,36 @@
+.search__type {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  width: 70%;
+  position: relative;
+  left: 20%;
+}
+
+.filter__input {
+  padding: 0.6em;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.filter__btn {
+  padding: 0.6em;
+  border: none;
+  border-radius: 2px;
+  background-color: #dd1a1a;
+  font-weight: 500;
+}
+
+.filter__btn:hover {
+  transform: scale(1.1);
+  filter: brightness(1.15);
+}
+
+.filter__option {
+  padding: 0.6em;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
